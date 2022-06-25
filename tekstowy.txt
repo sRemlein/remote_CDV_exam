@@ -1,0 +1,23 @@
+zadanie 2
+	git status
+	git add .
+	git commit -m "brakujace pliki 2022-06-25"
+	git remote add origin https://github.com/sRemlein/remote_CDV_exam.git
+	git push origin master
+
+zadanie 3
+
+	a)
+		SELECT *
+		FROM CoffeShop
+		WHERE City!='Philadelphia' AND Product='Latte' OR Product='Long Black'
+
+	b)
+		SELECT DISTINCT Product
+		FROM CoffeShop
+		WHERE Customer_ref='william thompson_86' OR Customer_ref='mark taylor_113'
+
+	c)
+		SELECT DISTINCT City
+		FROM CoffeShop
+		WHERE Product='Cappuccino' OR Product='Flat White'
